@@ -1,6 +1,6 @@
 var mongoose = require("mongoose");
 // var mongodb = "mongodb://localhost:27017/todo";
-var mongodb = "mongodb+srv://Divash:Divash1234@todo.xi1me.mongodb.net/?retryWrites=true&w=majority";
+var mongodb = "";
 
 mongoose.connect(mongodb, { useNewUrlParser: true, useUnifiedTopology: true }, (err) => {
     if (err){
