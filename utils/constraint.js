@@ -1,0 +1,11 @@
+const StatusCode = {
+	SUCCESS: 200,
+	CREATED: 201,
+	VALIDATION_ERROR: 400,
+	UNPROCESSABLE_ENTITY: 202,
+	AUTH_ERROR: 404,
+	CONFLICT: 409,
+	SERVER_ERROR: 500,
+};
+
+module.exports = StatusCode;

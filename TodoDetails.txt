@@ -1,0 +1,38 @@
+
+
+ENDPOINT:  - For login an existing user
+METHOD: POST 
+BODY: {
+    email:divash11@gmail.com
+    password:123456
+}
+
+ENDPOINT: /api/register - For register a new user
+METHOD: POST 
+BODY: {
+    username:"divash1",
+    email:"divash11@gmail.com",
+    password:123456,
+}
+
+ENDPOINT: /create - Create a new todo item
+METHOD: POST
+BODY: {
+    desc:just checking1
+    isCompleted:false
+}
+
+ENDPOINT: /get - List all todos of the current user
+METHOD: POST
+
+
+ENDPOINT: /todos/:id - Update an existing todo
+METHOD: PUT 
+{
+    isCompleted:true
+}
+
+ENDPOINT: /todos/:id - Delete an existing todo
+METHOD: DELETE 
+
+
